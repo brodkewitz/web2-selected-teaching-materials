@@ -1,0 +1,8 @@
+Assignment Animation in the Browser
+
+10	Planning materials and assets	Some evidence of planning is present (sketches or extra elements in vector files). Assets exported to SVG are at least partially organized into groups/layers/given names.
+10	Embedded SVG	SVG content is embedded into HTML content and fits into the layout (whatever that layout is intended to be)
+5	Greensock used	Greensock is linked in the HTML and utilized to animate some element(s) on the page
+10	ScrollTrigger	At least one animation is triggered by scrolling into the viewport, using the GSAP ScrollTrigger plugin
+20	Animations enhance content	Animations enhance the content without being overly distracting or jarring
+5	Submission and deployment	Files are organized and uploaded to Google Drive. Web page is deployed to student work server and linked from student homepage.

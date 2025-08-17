@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Simple Dynamic Web App Python</title>
+
+<style>
+* {
+	box-sizing: border-box;
+}
+
+html, body {
+	margin: initial;
+	padding: initial;
+	font-family: system-ui, -apple-system;
+}
+
+.wrapper {
+	padding: 0 1rem;
+}
+</style>
+
+</head>
+<body>
+<div class="wrapper">
+
+{%- if name and name_exists %}
+<h1>Welcome back, {{ name }}!</h1>
+{%- elif name and not name_exists %}
+<h1>Hello {{ name }}!</h1>
+{%- else %}
+<h1>Hello stranger!</h1>
+{%- endif %}
+
+<p>The current list of names is:</p>
+
+<ul>
+{%- for n in names_list %}
+	<li>{{ n }}</li>
+{%- endfor %}
+</ul>
+
+</div>
+</body>
+</html>
